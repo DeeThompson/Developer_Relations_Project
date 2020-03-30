@@ -54,7 +54,7 @@ Demo projects showcasing usage of [daily-js](https://github.com/daily-co/daily-j
 An overview of the available demo projects can be found [in the Daily.co documentation](https://docs.daily.co/docs/demos).
 
 
-## Blog and Code Sample 
+## Blog and Code Sample
 
 
 
