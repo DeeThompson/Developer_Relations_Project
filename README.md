@@ -61,3 +61,5 @@ An overview of the available demo projects can be found [in the Daily.co documen
 
 
 ## Getting Started Guide 
+
+A revised version of the Getting Started Guide can be viewed [Here](https://docs.google.com/document/d/1bKZW9T0Nx326cN_cAn8z_0mxHuKUhcjRlPY0BcVUbDU/edit?usp=sharing)
