@@ -210,7 +210,9 @@ function updateParticipantInfoDisplay(e) {
         <div>${p.user_name || 'guest'}</div>
         <div>cam ${p.video ? 'on' : 'off'}</div>
         <div>mic ${p.audio ? 'on' : 'off'}</div>
-        <div> hand raised</div>
+        <div>raise hand ${p.window ? 'up' : 'down'}</div>
+        
+       
       </div>
     `;
   }
@@ -267,7 +269,14 @@ function toggleCam() {
 function toggleMic() {
   callFrame.setLocalAudio(!callFrame.participants().local.audio);
 }
+function toggleHand() {
+  callFrame.window.setLocalParticipant(!callFrame.participants().local.participant);
 
+}
+function lowerHand() {
+  callFrame.setLocalParticipant(!callFrame.participants().local.participant);
+
+}
 
 
 //
@@ -361,7 +370,7 @@ function buttonDisable(...args) {
       <button id="toggle-local-mic" onclick="toggleMic()">
         toggle local mic
       </button>
-      <button id="raise-hand" onclick="raiseHand()">
+      <button id="toggle-hand" onclick="toggleHand()">
         raise hand
         </button>
         <button id="lower-hand" onclick="lowerHand()">
