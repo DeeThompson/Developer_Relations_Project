@@ -6,7 +6,7 @@ The project is a Demo of Daily.co Video Chat with Documentation
 
 
 * [Running-The-Project](#Running-The-Project)
-* [Blog-and-Code Sample](#Blog-and-codesample)
+* [Blog](#Blog)
 * [Getting-Started-Guide](#Getting-Started-Guide)
 
 
@@ -54,7 +54,7 @@ Demo projects showcasing usage of [daily-js](https://github.com/daily-co/daily-j
 An overview of the available demo projects can be found [in the Daily.co documentation](https://docs.daily.co/docs/demos).
 
 
-## Blog and Code Sample
+## Blog 
 
 
 
