@@ -5,12 +5,10 @@ The project is a Demo of Daily.co Video Chat with Documentation
 ## Table of Contents 
 
 
-* [Running The Project](#RunningTheProject)
+* [Running-The-Project](#Running-The-Project)
 * [Blog and Code Sample](#blogandcodesample)
 * [Getting Started Guide](#RunTheApp)
-* [Authors](#Authors)
-* [ProjectComments](#ProjectComments)
-* [Acknowledgments](#Acknowledgments)
+
 
 
 
