@@ -7,7 +7,7 @@ The project is a Demo of Daily.co Video Chat with Documentation
 
 * [Running-The-Project](#Running-The-Project)
 * [Blog-and-Code Sample](#Blog-and-codesample)
-* [Getting-Started-Guide](Getting-Started-Guide)
+* [Getting-Started-Guide](#Getting-Started-Guide)
 
 
 
