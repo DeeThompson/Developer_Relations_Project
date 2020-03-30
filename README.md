@@ -6,27 +6,17 @@ The project is a Demo of Daily.co Video Chat with Documentation
 
 
 * [Running-The-Project](#Running-The-Project)
-* [Blog and Code Sample](#blogandcodesample)
-* [Getting Started Guide](#RunTheApp)
+* [Blog-and-Code Sample](#Blog-and-codesample)
+* [Getting-Started-Guide](Getting-Started-Guide)
 
 
 
 
-## Prerequisites
+## Running The Project 
 
 
 
-# Running The Project 
-
-# daily-demos
-
-Demo projects showcasing usage of [daily-js](https://github.com/daily-co/daily-js).
-
-## Overview of available demo projects
-
-An overview of the available demo projects can be found [in the Daily.co documentation](https://docs.daily.co/docs/demos).
-
-## Running demo projects locally
+### Running demo projects locally
 
 Each demo project is an independent standalone project. You can choose to run a single project, or the entire demo project site.
 
@@ -55,3 +45,19 @@ npm run start # or `npm run dev`, to automatically restart server on file change
 
 Then open your browser and go to [localhost:3000](http://localhost:3000/) or [localhost:3001](http://locahost:3001).
 
+### daily-demos
+
+Demo projects showcasing usage of [daily-js](https://github.com/daily-co/daily-js).
+
+### Overview of available demo projects
+
+An overview of the available demo projects can be found [in the Daily.co documentation](https://docs.daily.co/docs/demos).
+
+
+## Blog and Code Sample 
+
+
+
+
+
+## Getting Started Guide 
