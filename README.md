@@ -1,3 +1,25 @@
+## Project Title
+
+The project is a Demo of Daily.co Video Chat with Documentation 
+
+## Table of Contents 
+
+
+* [Running The Project](#RunningTheProject)
+* [Blog and Code Sample](#blogandcodesample)
+* [Getting Started Guide](#RunTheApp)
+* [Authors](#Authors)
+* [ProjectComments](#ProjectComments)
+* [Acknowledgments](#Acknowledgments)
+
+
+
+## Prerequisites
+
+
+
+#Running The Project 
+
 # daily-demos
 
 Demo projects showcasing usage of [daily-js](https://github.com/daily-co/daily-js).
