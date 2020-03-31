@@ -56,6 +56,8 @@ An overview of the available demo projects can be found [in the Daily.co documen
 
 ## Blog 
 
+Here is a blog explaining a feature added to the video chat. Click [here](https://www.notion.so/Developer-Relations-Project-ef559b4e94f9464aaaa35103e363b77e) to view. 
+
 
 
 
