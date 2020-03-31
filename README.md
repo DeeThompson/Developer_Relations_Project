@@ -54,6 +54,10 @@ Demo projects showcasing usage of [daily-js](https://github.com/daily-co/daily-j
 
 An overview of the available demo projects can be found [in the Daily.co documentation](https://docs.daily.co/docs/demos).
 
+## Heroku-Project-Link
+
+If you prefer, the project can be viewed through a [Heroku](https://developer-relations.herokuapp.com/static-demos/basics-demo/basics.html) Link
+
 
 ## Blog 
 
