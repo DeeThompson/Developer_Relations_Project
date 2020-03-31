@@ -6,6 +6,7 @@ The project is a Demo of Daily.co Video Chat with Documentation
 
 
 * [Running-The-Project](#Running-The-Project)
+* [Heroku-Project-Link](#Heroku-Project-Link)
 * [Blog](#Blog)
 * [Getting-Started-Guide](#Getting-Started-Guide)
 
