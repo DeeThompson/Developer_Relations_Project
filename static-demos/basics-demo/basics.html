@@ -207,7 +207,7 @@ function updateParticipantInfoDisplay(e) {
     let p = participants[id];
     infoHTML += `
       <div>
-        <div>${p.user_name || 'guest'}</div>
+        <div>${p.user_name || 'colleague'}</div>
         <div>cam ${p.video ? 'on' : 'off'}</div>
         <div>mic ${p.audio ? 'on' : 'off'}</div>
         <div>raise hand ${p.window ? 'up' : 'down'}</div>
@@ -229,16 +229,9 @@ function updateParticipantInfoDisplay(e) {
       buttonEnable('start-screenshare');
     }
   }
-  if (participants.local) {
-      if (participants.local.screen){
-      buttonDisable('hand-raised');
-      buttonEnable('hand-raised');
-    } else {
-      buttonDisable('lower-hand');
-      buttonEnable('lower-hand');
+
   }
-}
-}
+
  
 async function updateNetworkInfoDisplay() {
   let infoEl = document.getElementById('network-info'),
@@ -299,28 +292,7 @@ function buttonDisable(...args) {
   });
 }
 
-  function raiseHand() {
-  
-     
-     buttonDisable (raise-hand)
-    callFrame.sendAppMessage("raise hand","*");
-       buttonEnable (lower-hand)
 
-    
-   
-   //if a user has joined the meeting 
-  //raise hand 
- 
- }
-
- function lowerHand() {
-//   //if a user has joined the meeting and a user has a hand raised
-    
-     buttonDisable (lower-hand)
-     callFrame.sendAppMessage("student lowered hand","*");
-       buttonEnable (raise-hand)
- }
- 
 
   
 
@@ -373,9 +345,7 @@ function buttonDisable(...args) {
       <button id="toggle-hand" onclick="toggleHand()">
         raise hand
         </button>
-        <button id="lower-hand" onclick="lowerHand()">
-          lower hand
-          </button>
+        
     </div>
     <div>
       <button id="start-recording"
