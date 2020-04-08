@@ -1,12 +1,23 @@
-# daily-demos
+## Project Title
 
-Demo projects showcasing usage of [daily-js](https://github.com/daily-co/daily-js).
+The project is a Demo of Daily.co Video Chat with Documentation 
 
-## Overview of available demo projects
+## Table of Contents 
 
-An overview of the available demo projects can be found [in the Daily.co documentation](https://docs.daily.co/docs/demos).
 
-## Running demo projects locally
+* [Running-The-Project](#Running-The-Project)
+* [Heroku Project Link](#Heroku-Project-Link)
+* [Blog](#Blog)
+* [Getting-Started-Guide](#Getting-Started-Guide)
+
+
+
+
+## Running The Project 
+
+
+
+### Running demo projects locally
 
 Each demo project is an independent standalone project. You can choose to run a single project, or the entire demo project site.
 
@@ -33,55 +44,29 @@ npm i
 npm run start # or `npm run dev`, to automatically restart server on file changes
 ```
 
-Then open your browser and go to [localhost:3000](http://localhost:3000/).
+Then open your browser and go to [localhost:3000](http://localhost:3000/) or [localhost:3001](http://locahost:3001).
 
-## Contributing a new demo project
+### daily-demos
 
-To add a new demo project:
+Demo projects showcasing usage of [daily-js](https://github.com/daily-co/daily-js).
 
-1. Create a new folder for the demo project directly under the root directory.
+### Overview of available demo projects
 
-```bash
-# From daily-demos
-mkdir my-new-demo
-```
+An overview of the available demo projects can be found [in the Daily.co documentation](https://docs.daily.co/docs/demos).
 
-2. Implement your project as a standalone site. Make sure it runs on a port not used by the other demo projects.
+## Heroku Project Link
 
-```bash
-cd my-new-demo
-npm init
-# Etc, etc. Make a site.
-```
+If you prefer, the project can be viewed through a [Heroku](https://developer-relations.herokuapp.com/static-demos/basics-demo/basics.html) Link
 
-3. When it's ready, hook your demo project up to the overall demo project site by: a) exposing your demo through the root-level index via proxying, b) making it run as part of the root-level npm scripts (`npm run dev`, `npm run start`, `npm install`, etc.), and c) adding an entry (or multiple entries) to the table of contents in `index.html`.
 
-`index.js`:
+## Blog 
 
-```javascript
-app.use(
-  "/my-new-demo",
-  createProxyMiddleware({
-    target: "http://localhost:1234" // Your demo's port number
-  })
-);
-```
+Here is a blog explaining a feature added to the video chat. Click [here](https://www.notion.so/Developer-Relations-Project-ef559b4e94f9464aaaa35103e363b77e) to view. 
 
-`package.json`:
 
-```json
-"scripts": {
-    "start": "concurrently npm:index-start npm:other-demo-start npm:my-new-demo-start",
-    "dev": "concurrently npm:index-dev npm:other-demo-dev npm:my-new-demo-dev",
-    "postinstall": "npm other-demo-install && npm my-new-demo-install",
-    "my-new-demo-start": "cd my-new-demo && npm run start",
-    "my-new-demo-dev": "cd my-new-demo && npm run dev",
-    "my-new-demo-install": "cd my-new-demo && npm i"
-  },
-```
 
-`index.html`:
 
-```html
-<li><a href="./my-new-demo/">My New Demo</a></li>
-```
+
+## Getting Started Guide 
+
+A revised version of the Getting Started Guide can be viewed [Here](https://docs.google.com/document/d/1bKZW9T0Nx326cN_cAn8z_0mxHuKUhcjRlPY0BcVUbDU/edit?usp=sharing)
